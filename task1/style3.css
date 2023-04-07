@@ -1,0 +1,32 @@
+
+section{
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 760px;
+    height: 450px;
+    background-color: rgba(161, 105, 84, 0.788);
+    margin: 100px auto;
+}
+section .theding{
+width: 200px;
+height: 30%;
+background-color: blueviolet;
+border: 2px solid white;
+border-radius: 5px;
+margin:  20px auto;
+}
+
+section div:nth-child(2){
+
+
+position:sticky;
+
+top: 0;
+
+    width: 200px;
+    height: 120px;
+    background-color: blueviolet;
+    border: 5px solid darkmagenta;
+    border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+section{
+    position: relative;
+    width: 760px;
+    height: 450px;
+    background-color: rgba(161, 105, 84, 0.788);
+    margin: 100px auto;
+}
+section .theding{
+width: 200px;
+height: 120px;
+background-color: blueviolet;
+border: 2px solid white;
+border-radius: 5px;
+margin:  200px auto;
+}
+
+section div:nth-child(2){
+position: absolute;
+left: 250px;
+top: 100px;
+    width: 200px;
+    height: 120px;
+    background-color: blueviolet;
+    border: 2px solid darkmagenta;
+    border-radius: 5px;
+}
+section>div{
+    display: flex;
+}
